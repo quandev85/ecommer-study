@@ -14,6 +14,9 @@ app.use(morgan('dev'));
 app.use(compression());
 app.use(helmet());
 
+// db
+require('./db/init.mongo');
+
 // route
 app.use('/api', routes);
 

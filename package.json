@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js --watch"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "compression": "^1.7.5",
     "helmet": "^8.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
   }
 }
